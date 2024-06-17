@@ -1,0 +1,125 @@
+.parent-grid{
+    display: grid;
+    background-color: aliceblue;
+    grid-template-columns: 50% 75%;
+    /* grid-template-rows: 25% ; */
+    height: max-content;
+    padding: 5px;
+    
+}
+.child-grid1{
+   
+    background-color: slategray;
+    padding: 4px;
+    align-items: center;
+    height: fit-content;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+.child-grid1{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+.child-grid1 a:hover {
+    background-color: white;
+    color: red;
+}
+.child-grid2{
+    overflow: hidden;
+    background-color: beige;
+
+}
+.child-grid2 a:hover {
+    background-color: white;
+    color: red;
+}
+
+.child-grid2{
+    
+    background-color:white;
+    padding: 4px;
+    place-content: center;
+    height: fit-content;
+    border-radius: 6px;
+    width: fit-content;
+    
+    
+}
+.child-grid3{
+   
+    background-color: burlywood;
+    padding: 4px;
+    place-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    width: fit-content;
+    width: fit-content;
+}
+.child-grid3{
+    overflow: hidden;
+    background-color: rgb(251, 251, 251);
+
+}
+.child-grid3 a:hover {
+    background-color: white;
+    color: red;
+}
+.child-grid4{
+   
+    background-color:violet;
+    padding: 4px;
+    place-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    width: fit-content;
+    
+}
+.child-grid4{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+.child-grid4 a:hover {
+    background-color: white;
+    color: red;
+}
+.child-grid5{
+   
+    background-color:whitesmoke;
+    padding: 4px;
+    place-content: center;
+    height: fit-content;
+    border-radius: 5px;
+    width: fit-content;
+}
+.child-grid5{
+    overflow: hidden;
+    background-color: rgb(254, 254, 254);
+
+}
+.child-grid5 a:hover {
+    background-color: white;
+    color: red;
+}
+.child-grid6{
+    
+    background-color:aquamarine;
+    padding: 4px;
+    place-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px
+    ;
+    
+}
+.child-grid6{
+    overflow: hidden;
+    background-color: rgb(231, 231, 231);
+
+}
+.child-grid6 a:hover {
+    background-color: white;
+    color: red;
+}
