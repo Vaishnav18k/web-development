@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Admin Dashboard Panel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		  @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart {
+  max-width: 450px;
+  margin: 35px 10px;
+}
+	</style>
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+               <img src="images/FireShot Capture 002 - Free Logo Maker - Get Custom Logo Designs in Minutes - Looka - looka.com.png" alt="">
+            </div>
+            <span class="Goodlook"></span>
+        </div>
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="index.html">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dashboard</span>
+                </a></li>
+                <li><a href="mailbox/mailbox.html">
+                    <i class="uil uil-mailbox-alt"></i>
+                    <span class="link-name">Mailbox</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-file"></i>
+                    <span class="link-name">Filemanager</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span class="link-name">Calendar</span>
+                </a></li>
+                <li><a href="todolist/index.html">
+                    <i class="uil uil-check-square"></i>
+                    <span class="link-name">Todo</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="signup/index1.html">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+	
+            </div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+				<li><a href="signup/index1.html" class="dropdown-toggle" data-toggle="dropdown"><span
+							class="glyphicon glyphicon-log-in"></span> Login / Sign Up <span
+							class="caret"></span></a>
+            
+            <!--<img src="images/profile.jpg" alt="">-->
+        </div>
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-shopping-cart"></i>
+                        <span class="text">Total Sales</span>
+                        <span class="number">50,k+</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-user-circle"></i>
+                        <span class="text">Active User</span>
+                        <span class="number">20,0k+</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-download-alt"></i>
+                        <span class="text">Total Download</span>
+                        <span class="number">500k+</span>
+                    </div>
+                    
+                     <!-- todolist -->
+        
+             <div class="checklook">
+                <div class="checkbox-container">
+                <h2 class="heading">  To-do list</h2>
+                <h3 class="h3"> showing 5/10 active tasks</h3>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1">Listen to music</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox2">
+                    <label for="checkbox2">Learn JavaScript</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox3">
+                    <label for="checkbox3" class="checkbox-label">Watch a movie</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox4">
+                    <label for="checkbox4">Read emails</label>
+                </div></div>
+                </div>
+    <!-- In progress task -->
+     <div id="progress-bar">
+        <div class="progress">
+            <strong>In Progress Task</strong>
+        <span> showing 5/10 in progress task</span>
+          <p>Dashboard UI optimisations - <strong>80%</strong></p>
+          <div data-progress="80"></div>
+          <p>Mailbox Cleanup - <strong>20%</strong></p>
+          <div data-progress="20"></div>
+          <p>Header Scroll bar- <strong>33%</strong></p>
+          <div data-progress="33"></div>
+          <p>localisation for file manager - <strong>75%</strong></p>
+          <div data-progress="75"></div>
+          <p>New Ecommerce UX/UI design - <strong>80%</strong></p>
+          <div data-progress="80"></div>
+        </div>
+     </div>
+      <!-- messages start -->
+       <div class="tables">
+        <div class="doctor-visiting">
+            <div class="heading">
+                <h4><b> Active-Task Pending</b></h4>
+             </div>
+             <table class="visiting">
+                <thead>
+                    <h5>Showing 5/10 active tasks</h5> 
+                    
+                    <td> </td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="img-box-small">
+                               <img src="image/sync.png" height="40px;" width="40px;" alt="#">
+                            </div>
+                        </td>
+                        <td style="color: #01295c; font-weight: 500; align-items: center;"> Dashboard optimisations</td>
+
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="img-box-small">
+                                <br>
+                               <img src="image/insurance.png" height="40px;" width="40px;" alt="#">
+                            </div>
+                        </td>
+                        <td style="color: #01295c; font-weight: 500;"> Mailbox cleanup</td>
+                      
+                        
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            <div class="img-box-small">
+                                <br>
+                               <img src="image/clock.png" height="40px;" width="40px;" alt="#">
+                            </div>
+                        </td>
+                        <td style="color: #01295c; font-weight: 500; align-items: center;"> Header Scroll bugfix</td>
+                        
+                        <td></td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <div class="img-box-small">
+                                <br>
+                               <img src="image/jigsaw.png" height="40px;" width="40px;" alt="#">
+                            </div>
+                        </td>
+                        <td style="color: #01295c; font-weight: 500;"> localisation for File manager</td>
+                        
+                        <td></td>
+                    </tr>
+                    
+                    <td>
+                        <div class="img-box-small">
+                            <br>
+                            <img src="image/research.png" height="40px;" width="40px;" alt="#">
+                         </div>
+                     </td>
+                     <td style="color: #01295c;font-weight: 500;"> New E-Commerce UX/UI design</td>
+              
+                
+
+                   
+                </tbody>
+             </table>
+        </div>
+       
+        
+       </div>
+      
+           
+
+            
+			<div id="chart" style="height: 250x; width: 550px;">
+			</div>
+			<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+			<script>
+				var options = {
+		  chart: {
+			type: 'bar'
+		  },
+		  series: [{
+			name: 'Yearly Earnings',
+			data: [15,23,35,44,48,53,65,71,82]
+		  }],
+		  xaxis: {
+			categories: [2015,2016,2017,2018,2019,2020,2021, 2022,2023]
+		  }
+		}
+		
+		var chart = new ApexCharts(document.querySelector("#chart"), options);
+		
+		chart.render();
+			</script>
+            <div id="account-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <div class="deposit status">
+                        <h5>Deposit</h5>
+                        <h2> ₹ <span id="current-deposit">100</span></h2>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3">
+                    <div class="withdraw status">
+                        <h5>Withdraw</h5>
+                        <h2> ₹ <span id="current-withdraw">400</span></h2>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-3">
+                    <div class="balance status">
+                        <h5>Balance</h5>
+                        <h2> ₹ <span id="current-balance">1240</span></h2>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+        
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+			
+        </div>
+        
+        
+    </section>
+    <script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts">
+
+	</script><script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    </body>
+</html>
