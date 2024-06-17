@@ -1,0 +1,9 @@
+.standard{
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+}
+.resolution{
+    transform: translate(5opx,40px,);
+}

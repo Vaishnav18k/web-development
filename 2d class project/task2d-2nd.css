@@ -1,0 +1,18 @@
+.textrotate{
+    width: 100px;
+    background-color: aquamarine;
+    animation: shimmy 3s infinite;
+}
+body{
+    background-color: rgb(219, 219, 220);
+color: whitesmoke;
+}
+@keyframes shimmy {
+    0%{
+        transform: translate(0,6);
+    }
+    100%{
+        transform: translate(20px,50px);
+    }
+    
+}
