@@ -1,0 +1,15 @@
+body{
+    background-color:azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Artificial{
+width: 500px;
+float: right;
+}
+
+#Article{
+    margin-left: 20px;
+    float: left;
+    color: darkgoldenrod;
+}

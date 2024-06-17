@@ -1,0 +1,91 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+nav{
+    background-color: #333;
+    margin: 0px;
+    overflow: hidden;
+    line-height:5;
+    border-radius:0px;
+    text-align:right;
+    max-width:2000px;
+    
+
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: upper-roman;
+    text-align: right;
+    color: black;
+}
+nav>ul>li>a{
+    color: #21130d;
+    background-color: rgba(220, 250, 232, 0.932);
+    display: block;
+    border-radius: 15px;
+    line-height: 5px;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+.introduction{
+    overflow: hidden;
+    overflow: visible;
+    overflow: auto;
+    max-width: 350px;
+    height: 550px;
+    display:inline-block;
+    background-color: aquamarine;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.resource{
+
+    overflow: visible;
+    overflow:scroll;
+    display: inline-block;
+    max-width: 300px;
+    height: 100x;
+      background-color:#aff0ff;
+      color:#000000;
+      text-align:left;
+      padding: 10px;
+      margin-right: 10px;
+      margin-left: 1opx;
+}
+.history{
+    overflow: visible;
+    overflow: scroll;
+    display: inline-block;
+    overflow: auto;
+    text-align: left;
+    max-width: 300px;
+    height: 500px;
+    background-color:aliceblue;
+    color: #000000;
+    padding: 10px;
+
+}
+.albert{
+    display: inline-block;
+    overflow: visible;
+    text-align: left;
+    padding: 10px;
+    max-width: fit-content;
+    height: 150px;
+    color: #57d414;
+    background-color:rgb(251, 253, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    
+
+}
